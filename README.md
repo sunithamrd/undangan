@@ -22,7 +22,7 @@ Semua ditampilkan dalam nuansa lembut, elegan, dan magis.
 
 Undangan bisa diakses di halaman GitHub Pages berikut:
 
-[https://namamu.github.io/undangan](https://namamu.github.io/undangan)
+[https://namamu.github.io/undangan](https://SatriadanSunitha.github.io/undangan)
 
 > Gantilah `namamu` dengan nama pengguna GitHub Anda sendiri.
 
