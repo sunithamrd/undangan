@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom right, #fff0f5, #f0e6ff);
+      color: #4b2e83;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #e6ccff;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .media {
+      text-align: center;
+    }
+    .media img, .media video {
+      max-width: 100%;
+      margin-top: 1rem;
+    }
+    .gifts ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .gifts li {
+      margin-bottom: 1rem;
+    }
+    .transfer {
+      background-color: #f8f0ff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    audio {
+      display: block;
+      margin: 1rem auto;
+    }
+    .custom-link {
+      margin: 2rem auto;
+      text-align: center;
+    }
+    .custom-link input {
+      padding: 0.5rem;
+      width: 80%;
+      max-width: 500px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Undangan Pernikahan</h1>
+    <h2>Putri Aurora & Pangeran Phillip</h2>
+    <p>Sabtu, 21 Juni 2025</p>
+  </header>
+
+  <section class="media">
+    <h3>Kenangan Cinta Kami</h3>
+    <img src="foto.jpg" alt="Foto pasangan" />
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+    <audio autoplay loop>
+      <source src="lagu.mp3" type="audio/mpeg">
+      Browser Anda tidak mendukung audio.
+    </audio>
+  </section>
+
+  <section class="gifts">
+    <h3>Daftar Kado</h3>
+    <ul>
+      <li><a href="https://example.com/kado1">Peralatan Dapur - Link Pembelian</a></li>
+      <li><a href="https://example.com/kado2">Sprei Cantik - Link Pembelian</a></li>
+    </ul>
+  </section>
+
+  <section class="transfer">
+    <h3>Kado Digital</h3>
+    <p>Jika berkenan memberikan kado berupa transfer, berikut rekening kami:</p>
+    <ul>
+      <li>Bank ABC: 1234567890 a.n. Aurora</li>
+      <li>DANA: 0812-3456-7890</li>
+    </ul>
+  </section>
+
+  <section class="custom-link">
+    <h3>Link Kustom Undangan</h3>
+    <p>Gunakan link berikut untuk membagikan undangan ini:</p>
+    <input type="text" value="https://namamu.github.io/undangan" readonly onclick="this.select(); document.execCommand('copy');" />
+    <p style="font-size: small; color: #888;">Klik untuk menyalin</p>
+  </section>
+</body>
+</html>
