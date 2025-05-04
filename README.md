@@ -1,6 +1,6 @@
 # Undangan Pernikahan Kerajaan
 
-**Selamat datang di halaman resmi pernikahan Putri Aurora & Pangeran Phillip**  
+**Selamat datang di halaman resmi pernikahan Putri Sunitha & Pangeran Satria**  
 Sebuah kisah cinta dari negeri dongeng yang akan segera bersatu dalam janji suci.
 
 ---
